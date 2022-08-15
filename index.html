@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <main>
+      <div id="todo" class="header">
+        <h2 style="color: white">
+          <span style="padding-right: 0.3rem">&#127826;</span>TODO
+        </h2>
+        <input
+          type="text"
+          id="myInput"
+          placeholder="grocery shopping..."
+          value=""
+        />
+        <button onclick="addList()" class="addBtn">Add</button>
+        <p hidden>You need to type something!</p>
+      </div>
+      <!--List-->
+      <ul id="myList" class="wrapper">
+        <li class="item">pay bills</li>
+        <li class="item">meeting</li>
+        <li class="item">buy eggs</li>
+        <li class="item">hit the gym</li>
+      </ul>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>

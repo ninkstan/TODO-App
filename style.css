@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik','Kanit', sans-serif;
+    background-color: #FBEAFF;
+}
+
+main {
+    margin: 4rem auto;
+    width: 24rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(209, 207, 207);
+    border-radius: 1rem;
+}
+
+input {
+    font-style: normal;
+    width: 12.5rem;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    font-family: 'Rubik','Kanit', sans-serif;
+}
+
+button {cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #b796e2;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    float: right;
+    font-family: 'Rubik','Kanit', sans-serif;
+}
+
+#todo {
+    width: 20rem;
+    min-height: 7.5rem;
+    height: fit-content;
+    background-image: linear-gradient(to top right, #845EC2, #00C9A7);
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.close {
+    background-color: #B39CD0;
+    color: white;
+    width: 1.2rem;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myList {
+    background-color: white;
+    width: 20rem;
+    list-style: none;
+    padding: 2rem 2rem;
+    border-radius: 0 0 1rem 1rem;
+    margin: 0 auto;
+    max-height: fit-content;
+}
+
+li {
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+p {
+    color: rgb(227, 231, 235);
+    background: none;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-left: 0.4rem;
+}
